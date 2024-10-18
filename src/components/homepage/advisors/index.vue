@@ -64,8 +64,8 @@ const items = ref<AdvisorItem[]>([
     avatar: './advisor4.png',
     position: 'Co-founder',
     office: {
-      name: '@ThinkZone Venture',
-      position: 'Accelerator Manager'
+      name: '@ThinkZone Ventures',
+      position: 'Accelerator Program Manager'
     }
   },
   {
@@ -75,7 +75,7 @@ const items = ref<AdvisorItem[]>([
     position: 'Board Advisor',
     office: {
       name: "@Monk's Hill Ventures",
-      position: 'Former Venture Partner'
+      position: 'Ex-Venture Partner'
     }
   },
   {
@@ -84,8 +84,8 @@ const items = ref<AdvisorItem[]>([
     avatar: './advisor3.png',
     position: 'Board Advisor',
     office: {
-      name: '@VinAI',
-      position: 'Chief Strategy Officer'
+      name: '@VinFast',
+      position: 'Global KOL & Partnership Director'
     }
   },
 

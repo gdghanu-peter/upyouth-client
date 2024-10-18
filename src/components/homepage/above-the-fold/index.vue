@@ -14,7 +14,7 @@
         </div>
         <p class="flex-1 text-lg text-gray-500 md:text-xl">
           We are a youth-focused tech startup ecosystem providing the best
-          resources for Vietnamese entrepreneurs to find REAL ventures.
+          resources for Vietnamese entrepreneurs to found REAL ventures.
         </p>
       </div>
       <div>

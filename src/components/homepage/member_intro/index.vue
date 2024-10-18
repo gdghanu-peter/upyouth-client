@@ -32,45 +32,45 @@ const items = ref([
   {
     text: 'We live in',
     places: [
-      '/countries/live/Canada.png',
-      '/countries/live/Czech.png',
-      '/countries/live/Finland.png',
-      '/countries/live/Hungary.png',
-      '/countries/live/Korea.png',
-      '/countries/live/Netherlands.png',
       '/countries/live/Vietnam.png',
       '/countries/live/America.png',
-      '/countries/live/Australia.png'
+      '/countries/live/Australia.png',
+      '/countries/live/Korea.png',
+      '/countries/live/Netherlands.png',  
+      '/countries/live/Canada.png',
+      '/countries/live/Finland.png',
+      '/countries/live/Hungary.png',
+      '/countries/live/Czech.png'
     ]
   },
   {
     text: 'We study at',
     places: [
-      '/countries/study/FTU.png',
-      '/countries/study/FullBright.png',
-      '/countries/study/NYU.png',
-      '/countries/study/BUV.png',
-      '/countries/study/Cornell.png',
       '/countries/study/Frame 1263.png',
+      '/countries/study/Cornell.png',
+      '/countries/study/NYU.png',
       '/countries/study/Frame 1264.png',
-      '/countries/study/Frame 1265.png'
+      '/countries/study/Frame 1265.png',
+      '/countries/study/FullBright.png',
+      '/countries/study/BUV.png',
+      '/countries/study/FTU.png'
     ]
   },
   {
     text: 'We work at',
     places: [
-      '/countries/work/Ericsson.png',
-      '/countries/work/Frame 1266.png',
-      '/countries/work/Genesia Ventures.png',
-      '/countries/work/GIMO.png',
-      '/countries/work/Masan.png',
       '/countries/work/McKinsey.png',
-      '/countries/work/MOMO.png',
-      '/countries/work/Nielsen IQ.png',
-      '/countries/work/Starbucks.png',
-      '/countries/work/Think Zone.png',
       '/countries/work/BCG.png',
-      '/countries/work/Dentons.png'
+      '/countries/work/Frame 1266.png',
+      '/countries/work/Masan.png',
+      '/countries/work/Starbucks.png',
+      '/countries/work/Genesia Ventures.png',
+      '/countries/work/Think Zone.png',
+      '/countries/work/Ericsson.png',
+      '/countries/work/Dentons.png',
+      '/countries/work/Nielsen IQ.png',
+      '/countries/work/MOMO.png',
+      '/countries/work/GIMO.png'
     ]
   }
 ])
