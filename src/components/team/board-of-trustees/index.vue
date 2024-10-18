@@ -1,7 +1,7 @@
 <template>
   <div class="mt-16 px-10 py-10">
     <div class="text-center w-full inline-block px-6 py-3 rounded-md border-2 border-blue-700">
-      <h2 class="text-3xl font-bold text-blue-700 pb-3">Board Of Trustees</h2>
+      <h2 class="text-3xl font-bold text-blue-700 pb-3">Board Of Trustees </h2>
     </div>
 
     <div class="mt-12">
