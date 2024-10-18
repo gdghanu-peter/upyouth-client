@@ -67,6 +67,6 @@ const activeItemId = ref(0)
 onMounted(() => {
   setInterval(() => {
     activeItemId.value = (activeItemId.value + 1) % 4
-  }, 2500)
+  }, 1500)
 })
 </script>

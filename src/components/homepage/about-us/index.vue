@@ -1,5 +1,4 @@
 <template>
-  <div>
     <UContainer class="text-center">
       <div class="leading-10">
         <h1 class="text-2xl font-bold md:text-6xl">Our community nurtures</h1>
@@ -23,9 +22,7 @@
       <div v-for="item in aboutUsList" :key="item.id">
         <div
           class="gap-4 text-center lg:flex lg:items-center lg:justify-between lg:gap-16 lg:text-left"
-          :class="
-            item.id % 2 === 0 ? 'my-8 flex-row md:my-16' : 'flex-row-reverse'
-          "
+          :class="item.id % 2 === 0 ? 'my-8 flex-row md:my-16' : 'flex-row-reverse'"
         >
           <div class="h-full w-full flex-1">
             <HomepageAboutUsCarousel
@@ -52,7 +49,7 @@
                 variant="solid"
                 size="lg"
                 color="white"
-                class="hidden w-fit rounded-full md:flex"
+                class="hidden w-fit rounded-full button-fill md:flex"
               ></UButton>
               <UButton
                 :label="item.link"
@@ -61,19 +58,19 @@
                 variant="solid"
                 size="md"
                 color="white"
-                class="w-fit rounded-full md:hidden"
+                class="w-fit rounded-full button-fill md:hidden"
               ></UButton>
             </ULink>
           </div>
         </div>
       </div>
     </UContainer>
-  </div>
 </template>
 
+
 <script setup lang="ts">
-import { useWindowSize } from '@vueuse/core'
-import type { AboutUs } from '~/types/about-us'
+import { ref, onMounted } from 'vue';
+import type { AboutUs } from '~/types/about-us';
 
 const aboutUsList = ref<AboutUs[]>([
   {
@@ -127,5 +124,8 @@ const aboutUsList = ref<AboutUs[]>([
     link: 'Visit HackYouth',
     url: 'https://docs.google.com/presentation/d/1U0l-ruKMciXCLRuP999u4-FP8kaBk3wUSKzMyw9zxwI/edit?usp=sharing'
   }
-])
+]);
 </script>
+
+
+
