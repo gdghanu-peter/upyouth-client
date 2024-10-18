@@ -47,7 +47,7 @@ const executiveBoardMembers = ref([
         accomplishments: [
           '- Ex-SWE Intern at <strong>Viettel Software</strong>',
           '- Ex-Quality Assurance Intern at <strong>Got It AI</strong>',
-          '- First Runner-up at <strong>ICAEW Mainland China and South-East Asia Business Competition 2024',
+          '- First Runner-up at <strong>ICAEW Mainland China and South-East Asia Business Competition 2024 </strong>',
           '- National Finalist at <strong>Cornell EMI Corning Case Competition</strong>',
           '- Honorary student at <strong>VinUni-Cornell Student Immersion Program 2023</strong>'
         ],
