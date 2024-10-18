@@ -6,8 +6,8 @@
 
     <div class="mt-12">
       <h3 class="text-2xl font-bold text-blue-700 text-center mb-8">Chairs</h3>
-      <div class="flex flex-wrap justify-center gap-32">
-        <div v-for="(chair, index) in chairs" :key="index" class="flex flex-col items-center w-50">
+      <div class="flex flex-wrap md:flex-nowrap justify-center gap-6 md:gap-32">
+        <div v-for="(chair, index) in chairs" :key="index" class="flex flex-col items-center w-full md:w-50">
           <img :src="chair.image" alt="Chair Photo" class="w-40 h-40 object-cover rounded-full mb-4" />
           <h4 class="text-lg font-bold text-blue-500 transition-colors duration-300 ease-in-out hover:text-blue-700">{{ chair.name }}</h4>
           <p class="text-md text-gray-500 font-semibold text-center" v-html="chair.position"></p>
@@ -17,8 +17,8 @@
     <div class="mt-12">
       <h3 class="text-2xl font-bold text-blue-700 text-center mb-2">Board Advisors</h3>
       <p class="text-center text-sm text-black mb-8">*Non-exhaustive list</p>
-      <div class="flex flex-wrap justify-center gap-32">
-        <div v-for="(advisor, item) in advisors" :key="item" class="flex flex-col items-center">
+      <div class="flex flex-wrap md:flex-nowrap justify-center gap-6 md:gap-32">
+        <div v-for="(advisor, item) in advisors" :key="item" class="flex flex-col items-center w-full md:w-50">
           <img :src="advisor.image" alt="Advisor Photo" class="w-40 h-40 object-cover rounded-full mb-4" />
           <h4 class="text-lg font-bold text-blue-500 transition-colors duration-300 ease-in-out hover:text-blue-700">{{ advisor.name }}</h4>
           <p class="text-md text-gray-500 font-semibold text-center" v-html="advisor.position"></p>
@@ -45,7 +45,6 @@ const chairs = ref([
     position: '<strong>Vice Chair</strong> <br/>- Executive Assistant to Group CEO at Masan Group <br/>- Ex-Legal Intern at Dentons <br />- Ex-Strategy, Deal Advisory Associate at KPMG ',
     image: '/board-chair2.png'
   }
-
 ]);
 
 const advisors = ref([
