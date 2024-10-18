@@ -1,10 +1,10 @@
 <template>
-  <div class="mt-16 px-20">
-    <div class="text-center w-full inline-block px-6 py-3 rounded-md border-2 border-blue-700">
-      <h2 class="text-3xl font-bold text-blue-700 pb-3">Executive Board</h2>
+  <div class="mt-16 px-4 md:px-20">
+    <div class="text-center w-full inline-block px-4 py-3 rounded-md border-2 border-blue-700">
+      <h2 class="text-2xl md:text-3xl font-bold text-blue-700 pb-3">Executive Board</h2>
     </div>
 
-    <div class="mt-8 grid gap-12">
+    <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-1 md:gap-12">
       <Item v-for="(member, item) in executiveBoardMembers" :key="item" :member="member"
         :active-tab="activeTab[item]" @tab-click="(tab) => handleTabClick(item, tab)" />
     </div>
@@ -62,15 +62,3 @@ const handleTabClick = (item: number, tab: string) => {
 };
 </script>
 
-<style scoped>
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-@media (min-width: 1024px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
