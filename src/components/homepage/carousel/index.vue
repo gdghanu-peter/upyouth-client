@@ -1,33 +1,34 @@
 <template>
-    <UContainer>
-      <div class="flex flex-col items-center justify-center gap-2 md:gap-4">
-        <CommonBrandText prefix="We are backed by" label="the best" color="blue-700"
-          class="text-center text-xl font-bold md:text-6xl" background slide>
-        </CommonBrandText>
-        <p class="text-center text-xs md:text-base">
-          Our elite partners in startup ecosystems help you build real ventures
-          and grow them far beyond.
-        </p>
-      </div>
-      <div class="my-8 flex flex-col gap-8">
-        <Carousel :items-to-show="2.5" :breakpoints="breakpoints" :autoplay="1500" :wrap-around="true">
-          <Slide v-for="item in items" :key="item">
-            <div
-              class="flex h-[60px] items-center justify-center rounded-lg border border-gray-300 md:h-[90px] lg:h-[140px]">
-              <img :src="item" draggable="false" class="mx-6 w-[80px] md:w-[140px] lg:w-[200px]" />
-            </div>
-          </Slide>
-        </Carousel>
-        <Carousel :items-to-show="2.5" :breakpoints="breakpoints" :autoplay="1500" :wrap-around="true">
-          <Slide v-for="item in items2" :key="item">
-            <div
-              class="flex h-[60px] items-center justify-center rounded-lg border border-gray-300 md:h-[90px] lg:h-[140px]">
-              <img :src="item" draggable="false" class="mx-6 w-[80px] md:w-[140px] lg:w-[200px]" />
-            </div>
-          </Slide>
-        </Carousel>
-      </div>
-    </UContainer>
+  <UContainer>
+    <div class="flex flex-col items-center justify-center gap-2 md:gap-4">
+      <h1 class="text-xl font-bold md:text-6xl">We partnered with the best to create</h1>
+      <CommonBrandText label="the best" color="blue-700" class="text-center text-xl font-bold md:text-6xl" background
+        slide>
+      </CommonBrandText>
+      <p class="text-center text-xs md:text-base">
+        Our elite partners in startup ecosystems help you build real ventures
+        and grow them far beyond.
+      </p>
+    </div>
+    <div class="my-8 flex flex-col gap-8">
+      <Carousel :items-to-show="2.5" :breakpoints="breakpoints" :autoplay="1500" :wrap-around="true">
+        <Slide v-for="item in items" :key="item">
+          <div
+            class="flex h-[60px] items-center justify-center rounded-lg border border-gray-300 md:h-[90px] lg:h-[140px]">
+            <img :src="item" draggable="false" class="mx-6 w-[80px] md:w-[140px] lg:w-[200px]" />
+          </div>
+        </Slide>
+      </Carousel>
+      <Carousel :items-to-show="2.5" :breakpoints="breakpoints" :autoplay="1500" :wrap-around="true">
+        <Slide v-for="item in items2" :key="item">
+          <div
+            class="flex h-[60px] items-center justify-center rounded-lg border border-gray-300 md:h-[90px] lg:h-[140px]">
+            <img :src="item" draggable="false" class="mx-6 w-[80px] md:w-[140px] lg:w-[200px]" />
+          </div>
+        </Slide>
+      </Carousel>
+    </div>
+  </UContainer>
 </template>
 
 <script setup lang="ts">
@@ -75,4 +76,3 @@ const breakpoints = ref({
   }
 })
 </script>
-
