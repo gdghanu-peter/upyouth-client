@@ -1,8 +1,9 @@
 <template>
     <div class="mt-16 px-20 py-20">
       <div class="text-center w-full inline-block px-6 py-3 rounded-md border-2 border-blue-700">
-        <h2 class="text-3xl font-bold text-blue-700">Co-founders</h2>
-      </div>
+      <h2 class="text-3xl font-bold text-blue-700 pb-3">Co-Founders</h2>
+    </div>
+
       <div class="mt-12">
         <div class="flex flex-wrap justify-center gap-32">
           <div v-for="(founder, item) in founders" :key="item" class="flex flex-col items-center">
@@ -19,12 +20,12 @@
   const founders = ref([
     {
       name: 'Mr. Brian Minh Tran',
-      position: 'Forbes 30U30 Asia <br/>Founder of the Board of Trustees',
+      position: '- Forbes 30U30 Asia <br/>- Ex-Assistant to VinFast Global DCEO',
       image: '/co-founder1.png'
     },
     {
       name: 'Mr. Nam Doan',   
-      position: 'Accelerator Manager, ThinkZone Venture',
+      position: '- Accelerator Program Manager at <br/>ThinkZone Ventures',
       image: '/co-founder2.png'
     }
   ]);
