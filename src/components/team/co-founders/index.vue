@@ -19,6 +19,7 @@
   <script setup lang="ts">
   const founders = ref([
     {
+      image: '/co-founder1.png',
       name: 'Mr. Brian Minh Tran',
       position: '- Forbes 30U30 Asia <br/>- Ex-Assistant to VinFast Global DCEO',
       image: '/co-founder1.png'
