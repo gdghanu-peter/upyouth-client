@@ -1,6 +1,6 @@
 <template>
-  <div class="relative w-screen overflow-hidden -mt-20">
-    <div class="relative mx-8 flex h-screen flex-col justify-center gap-8 lg:-mt-[112px]">
+  <div class="relative h-screen overflow-hidden -mt-20">
+    <div class="relative mx-8 flex h-screen flex-col justify-center gap-8">
       <div class="flex flex-col items-start gap-8 lg:flex-row lg:items-center">
         <div class="flex-1">
           <h1 class="text-4xl font-bold md:text-8xl">Do like a</h1>

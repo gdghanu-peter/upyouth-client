@@ -14,6 +14,13 @@
 </template>
 
 <script setup lang="ts">
+definePageMeta({
+  title: 'Our team - UpYouth - Tech Startup Ecosystem',
+  meta: [
+    { name: 'description', content: 'Every member of our team cares deeply about technopreneurship.' }
+  ]
+})
+
 const bannerSection = ref<HTMLElement | null>(null)
 
 const handleScrollToBanner = () => {
