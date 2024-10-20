@@ -3,7 +3,7 @@
       <UContainer class="mb-8 lg:mb-16">
         <div class="flex flex-col items-center justify-center gap-2 md:gap-4">
           <div>
-            <CommonBrandText label="What makes us different?" color="blue-700"
+            <CommonBrandText label="What makes us different?" color="primary-700"
               class="text-center text-2xl font-bold md:text-6xl" background></CommonBrandText>
           </div>
           <p class="text-center text-xs text-white md:text-base">

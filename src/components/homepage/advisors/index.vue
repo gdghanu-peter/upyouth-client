@@ -6,7 +6,7 @@
       <div class="flex flex-col items-center justify-center gap-2 md:gap-4">
         <CommonBrandText
           label="Our Advisors"
-          color="blue-700"
+          color="primary-700"
           class="text-xl font-bold md:text-6xl"
           background
         >
@@ -45,9 +45,9 @@
 </template>
 
 <script setup lang="ts">
-import type { AdvisorItem } from '~/types/advisors'
+import type { ProfileItem } from '~/types/profile'
 
-const items = ref<AdvisorItem[]>([
+const items = ref<ProfileItem[]>([
   {
     url: 'https://www.linkedin.com/in/brianminhtran/',
     name: 'Brian Minh Tran',

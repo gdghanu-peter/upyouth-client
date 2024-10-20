@@ -5,7 +5,7 @@
         <CommonBrandText
           label="Young founders from 0 to 1"
           class="text-2xl font-bold md:text-6xl"
-          color="blue-700"
+          color="primary-700"
           background
           slide
         ></CommonBrandText>
@@ -37,7 +37,7 @@
               <CommonBrandText
                 :label="item.label"
                 class="font-bold"
-                color="blue-700"
+                color="primary-700"
               ></CommonBrandText>
             </div>
             <p class="text-xs leading-6 sm:text-base">{{ item.content }}</p>

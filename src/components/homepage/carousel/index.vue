@@ -2,7 +2,7 @@
   <UContainer>
     <div class="flex flex-col items-center justify-center gap-2 md:gap-4">
       <h1 class="text-xl font-bold md:text-6xl">We partnered with the best to create</h1>
-      <CommonBrandText label="the best" color="blue-700" class="text-center text-xl font-bold md:text-6xl" background
+      <CommonBrandText label="the best" color="primary-700" class="text-center text-xl font-bold md:text-6xl" background
         slide>
       </CommonBrandText>
       <p class="text-center text-xs md:text-base">

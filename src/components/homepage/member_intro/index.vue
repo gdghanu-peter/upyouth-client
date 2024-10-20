@@ -6,7 +6,7 @@
         <CommonBrandText
           label="parts of startup ecosystem"
           class="text-center text-xl md:text-6xl"
-          color="blue-700"
+          color="primary-700"
           background
           slide
         />

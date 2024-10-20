@@ -24,7 +24,7 @@
 </template>
 
 <script setup lang="ts">
-import type { AdvisorItem } from '~/types/advisors'
+import type { ProfileItem } from '~/types/profile'
 
-defineProps<AdvisorItem>()
+defineProps<ProfileItem>()
 </script>

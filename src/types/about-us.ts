@@ -1,5 +1,5 @@
 export type AboutUs = {
-  url: unknown
+  url: string
   id: number
   images: string[]
   label: string

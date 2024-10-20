@@ -5,7 +5,7 @@
       ref="animatedSpan"
       :class="`${
         background
-          ? `px-2 leading-loose ${slide ? 'slidy-div slide-right text-blue-200' : 'text-white'}`
+          ? `px-2 leading-loose ${slide ? 'slidy-div slide-right' : 'text-white'}`
           : 'text-primary-700'
       }`"
     >
@@ -16,7 +16,6 @@
 </template>
 
 <script lang="ts" setup>
-import { onMounted, ref, onUnmounted, computed } from 'vue'
 import type { BrandText } from '~/types/brand-text'
 
 const props = withDefaults(defineProps<BrandText>(), {
