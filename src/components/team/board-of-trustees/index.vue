@@ -50,7 +50,7 @@ const chairs = ref([
 const advisors = ref([
   {
     name: 'Ms. Huong Tran',
-    position: '<strong>Board Advisor</strong><br/>- Ex-Venture Partner at <br /> Monk\'s Hill Ventures',
+    position: '<strong>Board Advisor</strong><br/>- Ex-Venture Partner at Monk\'s Hill Ventures',
     image: '/board-advisor2.png'
   },
   {
@@ -60,7 +60,7 @@ const advisors = ref([
   },
   {
     name: 'Ms. Thao Ha',
-    position: '<strong>Board Advisor</strong><br/>- Venture Partner at <br /> Integra Ventures',
+    position: '<strong>Board Advisor</strong><br/>- Venture Partner at Integra Ventures',
     image: '/board-advisor3.png'
   }
 ]);
