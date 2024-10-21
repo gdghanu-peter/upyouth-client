@@ -32,7 +32,7 @@
 const chairs = ref([
   {
     name: 'Ms. Thanh Hoang',
-    position: '<strong>Chair</strong><br/>- MBA Candidate at Harvard Business School<br/>- Incoming Consultant at McKinsey & Company <br/>- Growth and Partnership at Arrowster',
+    position: '<strong>Chair</strong><br/>- Incoming MBA Student at Harvard Business School<br/>- Incoming Consultant at McKinsey & Company <br/>- Growth and Partnership at Arrowster',
     image: '/board-chair1.png'
   },
   {
