@@ -51,20 +51,20 @@
       url: 'https://www.linkedin.com/in/thanhhoang93/',
       name: 'Thanh Hoang',
       avatar: '/team/thanh-hoang.png',
-      position: 'Co-founder',
+      position: 'Chair',
       office: {
-        name: '@ThinkZone Ventures',
-        position: 'MBA Candidate '
+        name: '@Harvard University',
+        position: 'Incoming MBA student'
       }
     },
     {
       url: 'https://www.linkedin.com/in/vutran1912/',
       name: 'Vu Tran',
       avatar: '/team/vu-tran.png',
-      position: 'Board Advisor',
+      position: 'Vice Chair',
       office: {
-        name: "Founder @Productiv",
-        position: '(Antler VN7 Cohort)'
+        name: "(Antler VN7 Cohort)",
+        position: 'Founder @Productiv'
       }
     }
   ])
