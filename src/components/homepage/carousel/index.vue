@@ -11,7 +11,7 @@
       </p>
     </div>
     <div class="my-8 flex flex-col gap-8">
-      <Carousel :items-to-show="2.5" :breakpoints="breakpoints" :autoplay="1500" :wrap-around="true">
+      <Carousel :items-to-show="2.5" :breakpoints="breakpoints" :autoplay="1500" :wrap-around="true" :transition="500">
         <Slide v-for="item in items" :key="item">
           <div
             class="flex h-[60px] items-center justify-center rounded-lg border border-gray-300 md:h-[90px] lg:h-[140px]">
@@ -19,7 +19,7 @@
           </div>
         </Slide>
       </Carousel>
-      <Carousel :items-to-show="2.5" :breakpoints="breakpoints" :autoplay="1500" :wrap-around="true">
+      <Carousel :items-to-show="2.5" :breakpoints="breakpoints" :autoplay="1500" :wrap-around="true" :transition="500">
         <Slide v-for="item in items2" :key="item">
           <div
             class="flex h-[60px] items-center justify-center rounded-lg border border-gray-300 md:h-[90px] lg:h-[140px]">
@@ -76,3 +76,4 @@ const breakpoints = ref({
   }
 })
 </script>
+

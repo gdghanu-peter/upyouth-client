@@ -6,7 +6,7 @@
     :autoplay="1500"
   >
     <Slide v-for="item in items" :key="item">
-      <img :src="item" class="h-full w-[500px]" draggable="false" />
+      <img :src="item" class="h-full w-[500px] rounded-3xl" draggable="false" />
     </Slide>
   </Carousel>
 </template>

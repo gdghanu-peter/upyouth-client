@@ -17,7 +17,17 @@
           resources for Vietnamese entrepreneurs to found REAL ventures.
         </p>
       </div>
-      <div>
+      <div class="flex gap-2 justify-center sm:justify-start">
+        <NuxtLink to="https://tally.so/r/mZzXpo" target="_blank">
+          <UButton
+            :ui="{ rounded: 'rounded-full' }"
+            class="border-none text-white bg-blue-700 hover:bg-blue-800"
+            size="xl"
+            color="white"
+            rounded="rounded-full"
+            >Join our team</UButton
+          ></NuxtLink
+        >
         <UButton
           label="Discover more"
           icon="i-heroicons-arrow-right-16-solid"
