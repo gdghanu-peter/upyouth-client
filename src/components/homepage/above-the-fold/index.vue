@@ -17,7 +17,17 @@
           resources for Vietnamese entrepreneurs to found REAL ventures.
         </p>
       </div>
-      <div>
+      <div class="flex gap-2 justify-center sm:justify-start">
+        <NuxtLink to="https://drive.google.com/drive/folders/1fRVEc1knH6641i1rQxsi58IJ3TL7VWPI" target="_blank">
+          <UButton
+            :ui="{ rounded: 'rounded-full' }"
+            class="border-none text-white bg-blue-700 hover:bg-blue-800"
+            size="xl"
+            color="white"
+            rounded="rounded-full"
+            >Read our Ecosystem Reports</UButton
+          ></NuxtLink
+        >
         <UButton
           label="Discover more"
           icon="i-heroicons-arrow-right-16-solid"
