@@ -19,6 +19,7 @@
       <div>
         <UCarousel 
           :items="items"
+          ref="carouselRef"
           v-slot="{ item }"
           :ui="{
             item: 'basis-full md:basis-1/2 lg:basis-1/3 justify-center',
@@ -29,8 +30,10 @@
                 'absolute flex items-center justify-center gap-3 -bottom-10 inset-x-0'
             }
           }"
+          :wrap-around="true"
           indicators
-        >
+          arrows
+        > 
           <HomepageAdvisorsItem
             :url="item.url"
             :avatar="item.avatar"
@@ -39,6 +42,7 @@
             :position="item.position"
           />
         </UCarousel>
+        
       </div>
     </UContainer>
   </div>
@@ -100,4 +104,18 @@ const items = ref<ProfileItem[]>([
     }
   }
 ])
+
+const carouselRef = ref()
+
+onMounted(() => {
+  setInterval(() => {
+    if (!carouselRef.value) return
+
+    if (carouselRef.value.page === carouselRef.value.pages) {
+      return carouselRef.value.select(0)
+    }
+
+    carouselRef.value.next()
+  }, 3000)
+})
 </script>
