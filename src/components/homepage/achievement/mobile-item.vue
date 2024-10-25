@@ -10,7 +10,7 @@
       mode="out-in"
     >
       <div
-        class="text-primary-600 mobile group absolute relative flex flex-col items-center justify-center gap-4 transition-colors duration-500 ease-in-out"
+        class="text-primary-600 mobile group relative flex flex-col items-center justify-center gap-4 transition-colors duration-500 ease-in-out"
         :class="isActive ? 'text-white' : 'text-primary-600'"
       >
         <span
