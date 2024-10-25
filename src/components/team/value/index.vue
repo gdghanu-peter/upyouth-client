@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-24 pb-8 sm:pt-32 sm:pb-16">
+  <div class="pt-24 pb-8 sm:pt-32 sm:pb-16 max-w-screen-2xl mx-auto">
     <div class="bg-primary-50 mx-4 sm:mx-8 rounded-3xl sm:rounded-[32px] p-7 sm:p-10 text-center">
       <h3 class="text-primary-700 mb-3 sm:mb-6 text-3xl sm:text-5xl font-bold">Our core values</h3>
       <p class="mx-auto mb-8 max-w-[930px] text-base sm:text-2xl">

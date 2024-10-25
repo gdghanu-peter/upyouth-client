@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4 sm:mx-8 mb-16 rounded-[32px] sm:p-10 text-center">
+  <div class="mx-4 sm:mx-auto mb-16 rounded-[32px] sm:p-10 text-center max-w-screen-2xl">
     <h3 class="text-primary-700 mb-2 sm:mb-4 text-3xl sm:text-5xl font-bold">Our founding story</h3>
     <p class="mx-auto mb-8 sm:mb-16 max-w-[930px] text-base sm:text-2xl">
       As ‘real founders’, we’ve grown UpYouth

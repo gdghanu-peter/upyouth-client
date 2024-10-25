@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-team relative text-center sm:text-left pb-20 -mt-20 w-full flex h-screen justify-center sm:justify-start items-center overflow-hidden lg:-mt-24"
+    class="bg-team relative text-center sm:text-left pb-20 -mt-20 flex h-screen justify-center sm:justify-start items-center overflow-hidden lg:-mt-24"
   >
     <div class="mx-8 sm:mx-16">
       <h1 class="mb-4 text-4xl sm:text-6xl font-bold text-white">We are UpYouthians</h1>

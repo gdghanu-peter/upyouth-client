@@ -40,7 +40,8 @@ const executiveBoard = ref<ExecutiveBoardItem[]>([
       `His investment journey spans from seed-stage ventures at LvlUp Ventures to working on Vietnam's largest renewables M&A deal; managing a $2 million student-run public equity portfolio, to investments for a $4.5 billion foundation.`,
       `He is also a real builder, shown by how he played a pivotal role in scaling a solar financing startup and builded TechYouth Incubator 2023. Now he is leading UpYouth Tech Startup Ecosystem, using his experience to connect with and bridge the gap between investors and startup builders.`,
       `Outside of work, he enjoys boxing as school's club captain, listening to Ted Seides' Capital Allocators and Lenny's Podcast, and binging comedy-drama (most recently Succession).`
-    ]
+    ],
+    linkedin: 'https://www.linkedin.com/in/anhphandao/'
   },
   {
     name: 'Nguyen Canh Huy',
@@ -51,7 +52,8 @@ const executiveBoard = ref<ExecutiveBoardItem[]>([
       `He began his journey at UpYouth as a Growth Associate and quickly advanced to the role of Director of External Partnerships, developing his proficiency in strategic analysis and systemic thinking. Those skillset has made him a competent player, both in the industry and academic sectors.`,
       `He got a chance to work professionally at KPMG, VinFast, and Viettel Software. At the same time, Huy made it to the final round of Cornell EMI Corning Case Competition 2024, just months after becoming the First Runner-up at the ICAEW Mainland China and South-East Asia Business Competition 2024.`,
       `Out of office, he is such a player. Karaoke, games, trips, you barely see him miss the party! You can only know how crazy he is after working with him. Cheers!`
-    ]
+    ],
+    linkedin: 'https://www.linkedin.com/in/huy-nguyen-81821a237/'
   },
   {
     name: 'Pham Van Luong',
@@ -63,7 +65,8 @@ const executiveBoard = ref<ExecutiveBoardItem[]>([
       `Now switching to the Growth playground, she once again combines her corporate finance expertise as a Financial Planning Analyst at Starbucks with hands-on experience working on growth strategies at GIMO, a YC W'22 startup.`,
       `Her broad understanding of both the corporate and startup ecosystems under multiple roles has made her a formiddable asset to our team.`,
       `Beside work, Luong is a perennial fan of Hong Kong movies, and is obsessed with Wong Kar-wai's Chungking Express. Don't be surprised if you catch her raving for hours about Takeshi Kaneshiro's eyes at Bottom Up Club to a random stranger.`
-    ]
+    ],
+    linkedin: 'https://www.linkedin.com/in/luong-pham-04520321a/'
   }
 ])
 </script>

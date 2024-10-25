@@ -3,4 +3,5 @@ export type ExecutiveBoardItem = {
     img: string;
     title: string;
     content: string[];
+    linkedin: string;
   };
