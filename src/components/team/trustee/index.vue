@@ -53,7 +53,7 @@
       avatar: '/team/thanh-hoang.png',
       position: 'Chair',
       office: {
-        name: '@Harvard University',
+        name: '@Harvard Business School',
         position: 'Incoming MBA student'
       }
     },
