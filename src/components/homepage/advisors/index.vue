@@ -99,7 +99,7 @@ const items = ref<ProfileItem[]>([
     avatar: './advisor5.png',
     position: 'Board Advisor',
     office: {
-      name: '@Integra Partner',
+      name: '@Integra Partners',
       position: 'Venture Partner'
     }
   }
