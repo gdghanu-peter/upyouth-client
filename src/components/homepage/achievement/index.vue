@@ -1,4 +1,5 @@
 <template>
+  <CommonZoomIn>
   <div
     id="achievement"
     class="bg-primary-700 relative mx-4 mb-8 max-w-full rounded-3xl pt-8 text-white md:mx-8"
@@ -36,6 +37,7 @@
       </div>
     </UContainer>
   </div>
+  </CommonZoomIn>
 </template>
 
 <script setup lang="ts">

@@ -1,5 +1,6 @@
 <template>
   <div class="mx-4 rounded-3xl bg-primary-700 py-4 text-center md:py-8">
+    <CommonZoomIn>
     <div class="mb-8 items-center justify-center">
       <h1
         class="mx-auto max-w-[800px] text-center text-xl font-bold text-white md:text-6xl md:leading-[100%]"
@@ -18,6 +19,7 @@
         /></ULink>
       </div>
     </div>
+    </CommonZoomIn>
   </div>
 </template>
 

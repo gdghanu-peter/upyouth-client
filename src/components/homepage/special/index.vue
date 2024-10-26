@@ -1,4 +1,5 @@
 <template>
+  <CommonZoomIn>
     <div class="bg-primary-700 relative mx-4 my-8 overflow-hidden rounded-3xl p-8 lg:my-16 lg:p-16">
       <UContainer class="mb-8 lg:mb-16">
         <div class="flex flex-col items-center justify-center gap-2 md:gap-4">
@@ -22,6 +23,7 @@
       <img src="/arcs/arc1.png"
         class="absolute -right-[150px] bottom-[35px] z-10 w-[190px] rotate-[150] lg:-bottom-[70px] lg:-right-[300px] lg:w-[384px]" />
     </div>
+  </CommonZoomIn>
 </template>
 
 <script setup lang="ts">
