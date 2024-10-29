@@ -1,4 +1,5 @@
 <template>
+  <CommonZoomIn>
   <div
     class="bg-primary-700 relative mx-4 overflow-hidden rounded-3xl pb-16 pt-8"
   >
@@ -46,6 +47,7 @@
       </div>
     </UContainer>
   </div>
+  </CommonZoomIn>
 </template>
 
 <script setup lang="ts">
