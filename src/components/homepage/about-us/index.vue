@@ -3,7 +3,7 @@
       <div class="leading-10">
         <h1 class="text-2xl font-bold md:text-6xl">Our community nurtures</h1>
         <CommonBrandText
-          label="Young founders from 0 to 1"
+          label="young founders from 0 to 1"
           class="text-2xl font-bold md:text-6xl"
           color="primary-700"
           background

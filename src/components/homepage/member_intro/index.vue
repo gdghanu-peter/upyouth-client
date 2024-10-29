@@ -12,8 +12,7 @@
         />
       </div>
       <p class="mb-4 text-center text-xs md:text-base">
-        Our leadership, members, and alumni work in VCs and startups, just like
-        you. We're young, closely connected, and understand young founders.
+        Our leadership, members, and alumni work in VCs and startups. We're young, closely connected, and understand young founders.
       </p>
     </div>
     <div class="mx-auto mt-4 flex w-fit flex-col gap-4 lg:flex-row">

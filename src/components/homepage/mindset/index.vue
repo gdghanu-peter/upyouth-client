@@ -5,7 +5,7 @@
       <h1
         class="mx-auto max-w-[800px] text-center text-xl font-bold text-white md:text-6xl md:leading-[100%]"
       >
-        UpYouth is proud to spread entrepreneurial mindset
+        UpYouth is proud to spread the entrepreneurial mindset
       </h1>
       <p class="mb-4 mt-4 text-xs text-white md:mb-8 md:text-base">
         Read our stories in Vietnamese news, and stay tuned for our global
