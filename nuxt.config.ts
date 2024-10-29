@@ -21,18 +21,20 @@ export default defineNuxtConfig({
   },
   css: ['/assets/css/variables.css'],
   app: {
+
     head: {
       titleTemplate: '%s UpYouth - Tech Startup Ecosystem',
       meta: [
         { name: 'description', content: 'A Technopreneurial Ecosystem where Vietnamese youth get the best resources to found tech startups' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }
       ],
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        // Optionally, for different sizes or formats
-        { rel: 'icon', type: 'image/png', href: '/favicon.png', sizes: '16x16' },
-        { rel: 'apple-touch-icon', href: '/favicon.png' }, // For Apple devices
-      ]
+     link: [
+        {
+          rel: 'icon',
+          type: 'image/png',
+          href: '/favicon.png', // Path to your favicon
+        },
+      ],
     }
   }
 });
