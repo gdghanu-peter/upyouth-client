@@ -4,7 +4,7 @@
     >
       <UContainer>
         <div class="flex flex-col items-center justify-center gap-2 md:gap-4">
-          <h1 class="text-primary-700 mb-2 sm:mb-4 text-3xl sm:text-5xl font-bold">Board of Trustees</h1>
+          <h1 class="text-primary-700 mb-2 sm:mb-4 text-3xl sm:text-5xl font-bold">Our Board of Trustees</h1>
           <p class="mb-8 text-center text-base sm:text-xl">
             To best support startups, UpYouth works closely with high-level advisors, <br> serial entrepreneurs, and seasoned investors.
           </p>

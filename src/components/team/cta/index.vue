@@ -1,6 +1,6 @@
 <template>
     <div class="bg-cta mx-4 sm:mx-8 py-10 sm:py-16 text-center rounded-tl-3xl rounded-tr-3xl">
-        <h1 class="text-3xl sm:text-6xl font-bold text-white mb-8" >Be one of our core.</h1>
+        <h1 class="text-3xl sm:text-6xl font-bold text-white mb-8" >Be a part of our can-do team.</h1>
         <div class="flex flex-col sm:flex-row px-16 gap-4 justify-center">
         <NuxtLink to="https://tally.so/r/mZzXpo" target="_blank">
           <UButton
