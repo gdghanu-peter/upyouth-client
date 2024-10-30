@@ -1,7 +1,7 @@
 <template>
   <div>
     <UButton :padded="false" variant="link" @click="isOpen = true">Read more</UButton>
-    <UModal v-model="isOpen">
+    <UModal v-model="isOpen" fullscreen>
       <UCard
         :ui="{
           ring: '',
