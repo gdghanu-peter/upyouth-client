@@ -2,11 +2,8 @@
   <div>
     <UButton :padded="false" variant="link" @click="isOpen = true">Read more</UButton>
     <UModal v-model="isOpen" fullscreen>
-      <UCard
-        :ui="{
-          ring: '',
-          divide: 'divide-y divide-gray-100'
-        }"
+      <div
+       class="h-screen"
       >
         <template #header>
           <div class="flex items-center justify-between">
@@ -29,7 +26,7 @@
         <p class="mb-4">He then imagined a future of Vietnamese youth receiving those resources and having an incredible amount of innovation. But in reality, doing startups is often associated with uncertainties and failures, making this pathway "too risky" for Vietnamese youths to follow. Even when the trend of startups was rolling around, most entrepreneurial activities for students in Vietnam were pitching competitions. </p>
         <p class="mb-4">Students lean towards ideating quick-fix solutions and showcasing their business skills, while the whole process of validating problems, building products, and operating real startups is out of focus. Thereby, those competitions can neither give student entrepreneurs a <span class="text-primary-700">hands-on learning experience</span>, nor help them <span class="text-primary-700">hone in traits of a real founder. </span></p>
         <p>As a result, available resources in Vietnam are mostly targeting "mature founders", who are believed to have higher commitment to their startup journeys.</p>
-      </UCard>
+      </div>
     </UModal>
   </div>
 </template>
