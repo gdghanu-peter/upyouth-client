@@ -32,8 +32,8 @@ const coreValue = ref([
     title: 'Excellence',
     description: {
       leading: 'We insist on the ',
-      main: 'highest level of quality in EVERYTHING we do',
-      trailing: ', down to details like an email. We consistently try to learn and improve instead of being content with the status quo.'
+      main: 'highest level of quality in EVERYTHING we do,',
+      trailing: 'down to details like an email. We consistently try to learn and improve instead of being content with the status quo.'
     },
     img: '/team/excellence.png'
   },
