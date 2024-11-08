@@ -33,7 +33,6 @@
           }"
           :wrap-around="true"
           indicators
-          arrows
         > 
           <HomepageAdvisorsItem
             :url="item.url"
